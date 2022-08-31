@@ -226,13 +226,8 @@
             "type": "command"
           },
           {
-            "action": "COMMAND_SHOW_MAIL_PANEL",
-            "guid": "0a5fa632-aec4-4fc7-a979-6d33cb7ef5c4",
-            "type": "command"
-          },
-          {
-            "action": "COMMAND_SHOW_CONTACTS_PANEL",
-            "guid": "effeaa0f-a123-491a-81ff-f6b9b81ff00b",
+            "action": "COMMAND_SHOW_READING_LIST_PANEL",
+            "guid": "62dcc32b-daa7-431f-bdd9-4da548fc5fd8",
             "type": "command"
           },
           {
@@ -246,13 +241,13 @@
             "type": "command"
           },
           {
-            "action": "COMMAND_SHOW_NOTES_PANEL",
-            "guid": "1652b845-dd9f-4eda-ae7b-8a421e076b19",
+            "action": "COMMAND_SHOW_HISTORY_PANEL",
+            "guid": "f8b63736-ca29-4be5-b3fb-03caa8ef4190",
             "type": "command"
           },
           {
-            "action": "COMMAND_SHOW_HISTORY_PANEL",
-            "guid": "f8b63736-ca29-4be5-b3fb-03caa8ef4190",
+            "action": "COMMAND_SHOW_NOTES_PANEL",
+            "guid": "1652b845-dd9f-4eda-ae7b-8a421e076b19",
             "type": "command"
           },
           {
@@ -261,13 +256,28 @@
             "type": "command"
           },
           {
+            "action": "COMMAND_SHOW_TRANSLATE_PANEL",
+            "guid": "2e70861d-7fb7-4817-b482-47d0628f93f9",
+            "type": "command"
+          },
+          {
+            "action": "COMMAND_SHOW_MAIL_PANEL",
+            "guid": "0a5fa632-aec4-4fc7-a979-6d33cb7ef5c4",
+            "type": "command"
+          },
+          {
             "action": "COMMAND_SHOW_CALENDAR_PANEL",
             "guid": "8ed5a194-5a46-44cb-8cac-445f02d86d66",
             "type": "command"
           },
           {
-            "action": "COMMAND_SHOW_TRANSLATE_PANEL",
-            "guid": "2e70861d-7fb7-4817-b482-47d0628f93f9",
+            "action": "COMMAND_SHOW_FEEDS_PANEL",
+            "guid": "07d42ecf-49d8-4ede-bbb8-ce335b7a9a39",
+            "type": "command"
+          },
+          {
+            "action": "COMMAND_SHOW_CONTACTS_PANEL",
+            "guid": "effeaa0f-a123-491a-81ff-f6b9b81ff00b",
             "type": "command"
           },
           {
@@ -353,6 +363,16 @@
             "action": "COMMAND_MAIN_ZOOM_RESET",
             "guid": "948e8045-1dec-4386-95f2-4a9bfb5f2079",
             "type": "command"
+          },
+          {
+            "action": "",
+            "guid": "a6367896-a188-468b-bb2e-f4e03049896c",
+            "type": "separator"
+          },
+          {
+            "action": "COMMAND_CUSTOMIZE_TOOLBAR",
+            "guid": "f1266415-42b0-4ed0-b474-3924252a2d20",
+            "type": "command"
           }
         ]
       },
@@ -377,6 +397,53 @@
             "type": "container",
             "mode": "inline",
             "edge": "below"
+          }
+        ]
+      },
+      {
+        "action": "MENU_MAIL",
+        "guid": "f54fd14c-9dfa-4508-8548-78642ab2ba07",
+        "type": "folder",
+        "children": [
+          {
+            "action": "COMMAND_MAIL_COMPOSE_NEW_MESSAGE",
+            "guid": "5918795b-4424-4d35-a3e9-be93a62653bd",
+            "type": "command"
+          },
+          {
+            "action": "",
+            "guid": "a424a367-36a2-4f3b-a094-df59201f41a7",
+            "type": "separator"
+          },
+          {
+            "action": "COMMAND_MAIL_REPLY",
+            "guid": "d185554f-09fe-4376-a40a-36a9c800595f",
+            "type": "command"
+          },
+          {
+            "action": "COMMAND_MAIL_REPLY_ALL",
+            "guid": "d98addaa-c50a-42c9-b9e5-1c231b5754d4",
+            "type": "command"
+          },
+          {
+            "action": "",
+            "guid": "198d3da1-b82d-44fc-b3de-e859b8e1d5be",
+            "type": "separator"
+          },
+          {
+            "action": "COMMAND_MAIL_FORWARD",
+            "guid": "b25b2190-a572-4d21-983f-3897a10a8df4",
+            "type": "command"
+          },
+          {
+            "action": "",
+            "guid": "95e709d0-c7a2-4737-a241-b34223bc5914",
+            "type": "separator"
+          },
+          {
+            "action": "COMMAND_MAIL_SHOW_SETTINGS",
+            "guid": "dd93314b-8c0a-4bff-8e2f-942bb7f84ec0",
+            "type": "command"
           }
         ]
       },
@@ -798,13 +865,8 @@
             "type": "command"
           },
           {
-            "action": "COMMAND_SHOW_MAIL_PANEL",
-            "guid": "d2e29961-f536-435f-b153-071cf46a8122",
-            "type": "command"
-          },
-          {
-            "action": "COMMAND_SHOW_CONTACTS_PANEL",
-            "guid": "8c06c34d-eb2e-462f-aa91-fe4118d58695",
+            "action": "COMMAND_SHOW_READING_LIST_PANEL",
+            "guid": "4a82a17a-ac6f-4255-b3ae-546f8761ae34",
             "type": "command"
           },
           {
@@ -818,13 +880,13 @@
             "type": "command"
           },
           {
-            "action": "COMMAND_SHOW_NOTES_PANEL",
-            "guid": "71d979f6-c9a8-4cfd-a1c8-eee115f1a497",
+            "action": "COMMAND_SHOW_HISTORY_PANEL",
+            "guid": "51b80c27-702e-4ca1-ab4b-83604b7619da",
             "type": "command"
           },
           {
-            "action": "COMMAND_SHOW_HISTORY_PANEL",
-            "guid": "51b80c27-702e-4ca1-ab4b-83604b7619da",
+            "action": "COMMAND_SHOW_NOTES_PANEL",
+            "guid": "71d979f6-c9a8-4cfd-a1c8-eee115f1a497",
             "type": "command"
           },
           {
@@ -833,13 +895,28 @@
             "type": "command"
           },
           {
+            "action": "COMMAND_SHOW_TRANSLATE_PANEL",
+            "guid": "8edc8e40-45ee-41c0-b138-f1bd55502ebc",
+            "type": "command"
+          },
+          {
+            "action": "COMMAND_SHOW_MAIL_PANEL",
+            "guid": "d2e29961-f536-435f-b153-071cf46a8122",
+            "type": "command"
+          },
+          {
             "action": "COMMAND_SHOW_CALENDAR_PANEL",
             "guid": "e431f70f-f22e-4fdc-935e-0179a5ec0aa2",
             "type": "command"
           },
           {
-            "action": "COMMAND_SHOW_TRANSLATE_PANEL",
-            "guid": "8edc8e40-45ee-41c0-b138-f1bd55502ebc",
+            "action": "COMMAND_SHOW_FEEDS_PANEL",
+            "guid": "8022143d-dd8e-44d7-8c28-9a50ad606ab4",
+            "type": "command"
+          },
+          {
+            "action": "COMMAND_SHOW_CONTACTS_PANEL",
+            "guid": "8c06c34d-eb2e-462f-aa91-fe4118d58695",
             "type": "command"
           },
           {
@@ -925,6 +1002,16 @@
             "action": "COMMAND_MAIN_ZOOM_RESET",
             "guid": "9daa0fa7-67ab-41bd-bb1c-cb6a6b4d0f42",
             "type": "command"
+          },
+          {
+            "action": "",
+            "guid": "7920b978-5109-4af8-a357-4b2f10998842",
+            "type": "separator"
+          },
+          {
+            "action": "COMMAND_CUSTOMIZE_TOOLBAR",
+            "guid": "74e25956-caba-4658-b3a9-8dd48a7ef87f",
+            "type": "command"
           }
         ]
       },
@@ -949,6 +1036,53 @@
             "type": "container",
             "mode": "inline",
             "edge": "below"
+          }
+        ]
+      },
+      {
+        "action": "MENU_MAIL",
+        "guid": "8231ae52-9b0a-4e5e-9c51-d2633d0a44f5",
+        "type": "folder",
+        "children": [
+          {
+            "action": "COMMAND_MAIL_COMPOSE_NEW_MESSAGE",
+            "guid": "9125d3cb-0bb9-49c8-9a8a-9592ed9df220",
+            "type": "command"
+          },
+          {
+            "action": "",
+            "guid": "456fc1f6-1c22-44b6-97cf-faf3dc995d2a",
+            "type": "separator"
+          },
+          {
+            "action": "COMMAND_MAIL_REPLY",
+            "guid": "267d23b1-0b3f-4ef7-8e75-75484ee803e2",
+            "type": "command"
+          },
+          {
+            "action": "COMMAND_MAIL_REPLY_ALL",
+            "guid": "2286ffcd-3b61-413e-8648-7146806e65cc",
+            "type": "command"
+          },
+          {
+            "action": "",
+            "guid": "3e6745e0-562b-43a9-a081-d76c04f4bb39",
+            "type": "separator"
+          },
+          {
+            "action": "COMMAND_MAIL_FORWARD",
+            "guid": "895d9506-e802-4521-8ae2-e41ed1148c12",
+            "type": "command"
+          },
+          {
+            "action": "",
+            "guid": "6cf01b60-d9d0-42fe-a664-3e4320b656d6",
+            "type": "separator"
+          },
+          {
+            "action": "COMMAND_MAIL_SHOW_SETTINGS",
+            "guid": "c8dce464-3c6c-44c3-b8f9-ede8d29cc9bd",
+            "type": "command"
           }
         ]
       },
@@ -1448,13 +1582,8 @@
             "type": "command"
           },
           {
-            "action": "COMMAND_SHOW_MAIL_PANEL",
-            "guid": "061e2680-a8f9-43c9-a2f7-45b109fa1836",
-            "type": "command"
-          },
-          {
-            "action": "COMMAND_SHOW_CONTACTS_PANEL",
-            "guid": "e22d8f01-417e-4173-bef0-6043842e0a55",
+            "action": "COMMAND_SHOW_READING_LIST_PANEL",
+            "guid": "88ab2049-dfce-4d4f-b780-421e9479aeff",
             "type": "command"
           },
           {
@@ -1468,13 +1597,13 @@
             "type": "command"
           },
           {
-            "action": "COMMAND_SHOW_NOTES_PANEL",
-            "guid": "dadcef06-addf-4e8d-ae7a-af6e4e61288c",
+            "action": "COMMAND_SHOW_HISTORY_PANEL",
+            "guid": "dc3852cb-5a6e-4017-83ea-845c4559078b",
             "type": "command"
           },
           {
-            "action": "COMMAND_SHOW_HISTORY_PANEL",
-            "guid": "dc3852cb-5a6e-4017-83ea-845c4559078b",
+            "action": "COMMAND_SHOW_NOTES_PANEL",
+            "guid": "dadcef06-addf-4e8d-ae7a-af6e4e61288c",
             "type": "command"
           },
           {
@@ -1483,13 +1612,28 @@
             "type": "command"
           },
           {
+            "action": "COMMAND_SHOW_TRANSLATE_PANEL",
+            "guid": "c18c514b-556f-432e-9be5-d583ad84eacf",
+            "type": "command"
+          },
+          {
+            "action": "COMMAND_SHOW_MAIL_PANEL",
+            "guid": "061e2680-a8f9-43c9-a2f7-45b109fa1836",
+            "type": "command"
+          },
+          {
             "action": "COMMAND_SHOW_CALENDAR_PANEL",
             "guid": "a2de0865-8bf5-4f7d-9761-d27343b00f8e",
             "type": "command"
           },
           {
-            "action": "COMMAND_SHOW_TRANSLATE_PANEL",
-            "guid": "c18c514b-556f-432e-9be5-d583ad84eacf",
+            "action": "COMMAND_SHOW_FEEDS_PANEL",
+            "guid": "9a1061b8-8907-4458-b38a-63085c9254af",
+            "type": "command"
+          },
+          {
+            "action": "COMMAND_SHOW_CONTACTS_PANEL",
+            "guid": "e22d8f01-417e-4173-bef0-6043842e0a55",
             "type": "command"
           },
           {
@@ -1578,6 +1722,16 @@
           },
           {
             "action": "",
+            "guid": "48257394-5b87-4837-a5b2-a686ba421230",
+            "type": "separator"
+          },
+          {
+            "action": "COMMAND_CUSTOMIZE_TOOLBAR",
+            "guid": "93d2e2ae-4aa4-4475-982c-1d6ab2343185",
+            "type": "command"
+          },
+          {
+            "action": "",
             "guid": "d3f42fc7-9f56-4ea6-9bfb-9d5c7711e68e",
             "type": "separator"
           },
@@ -1609,6 +1763,53 @@
             "type": "container",
             "mode": "inline",
             "edge": "below"
+          }
+        ]
+      },
+      {
+        "action": "MENU_MAIL",
+        "guid": "01D3473B-90B5-4A34-B824-41AD03081E46",
+        "type": "folder",
+        "children": [
+          {
+            "action": "COMMAND_MAIL_COMPOSE_NEW_MESSAGE",
+            "guid": "BEFDCBD1-5835-4E58-9A22-314493DB6769",
+            "type": "command"
+          },
+          {
+            "action": "",
+            "guid": "0098D378-F1E1-4E34-832E-840BC888A3D9",
+            "type": "separator"
+          },
+          {
+            "action": "COMMAND_MAIL_REPLY",
+            "guid": "4FE4CF62-91C6-470F-9EDF-7EA19DB4FFE6",
+            "type": "command"
+          },
+          {
+            "action": "COMMAND_MAIL_REPLY_ALL",
+            "guid": "C40E027A-D61D-4E37-B706-C3DFA5AE2BCA",
+            "type": "command"
+          },
+          {
+            "action": "",
+            "guid": "8FF238B5-A322-4C9C-B90B-65FE0A583871",
+            "type": "separator"
+          },
+          {
+            "action": "COMMAND_MAIL_FORWARD",
+            "guid": "F322EF80-33BF-448C-96EB-CC914F6814B9",
+            "type": "command"
+          },
+          {
+            "action": "",
+            "guid": "2FD7AC29-70E8-4D1F-A8C9-084B911A4718",
+            "type": "separator"
+          },
+          {
+            "action": "COMMAND_MAIL_SHOW_SETTINGS",
+            "guid": "E8C2D753-0B64-4298-854B-C77B9537A417",
+            "type": "command"
           }
         ]
       },
