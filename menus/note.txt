@@ -1,2 +1,2 @@
 path is
-C:\Users\Yousif\AppData\Local\Vivaldi\Application\6.1.3035.75\resources\vivaldi\menus
+C:\Users\Yousif\AppData\Local\Vivaldi\User Data\Default
