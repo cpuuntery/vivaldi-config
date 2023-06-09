@@ -664,7 +664,7 @@
          "next-fetch": "13293411741615980",
          "redirect": "",
          "rules-list-checksum": "930610018",
-         "source-url": "https://github.com/uBlockOrigin/uAssets/blob/master/filters/annoyances.txt",
+         "source-url": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/annoyances.txt",
          "title": "",
          "unsupported-rules-count": 178,
          "valid-rules-count": 27906,
