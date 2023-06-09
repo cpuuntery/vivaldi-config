@@ -271,6 +271,11 @@
             "type": "command"
           },
           {
+            "action": "COMMAND_SHOW_TASKS_PANEL",
+            "guid": "4b0c5690-29ba-444e-aecd-2eb8d707635f",
+            "type": "command"
+          },
+          {
             "action": "COMMAND_SHOW_FEEDS_PANEL",
             "guid": "07d42ecf-49d8-4ede-bbb8-ce335b7a9a39",
             "type": "command"
@@ -584,6 +589,23 @@
           {
             "action": "",
             "guid": "76000707-0cc3-4555-a47e-bd4a9548a935",
+            "type": "separator"
+          },
+          {
+            "action": "CONTAINER_OTHER_WINDOW",
+            "guid": "50e7ddb6-4a38-4e63-bd41-b8705b35cd53",
+            "type": "container",
+            "mode": "folder"
+          },
+          {
+            "action": "CONTAINER_OTHER_WORKSPACE",
+            "guid": "cf9cd769-15f2-449b-90cc-c4b5e31c1fd7",
+            "type": "container",
+            "mode": "folder"
+          },
+          {
+            "action": "",
+            "guid": "b834231d-ed70-4d64-bc31-4171ad56dc5f",
             "type": "separator"
           },
           {
@@ -910,6 +932,11 @@
             "type": "command"
           },
           {
+            "action": "COMMAND_SHOW_TASKS_PANEL",
+            "guid": "c999a692-b222-4488-bc49-376cba4f4df8",
+            "type": "command"
+          },
+          {
             "action": "COMMAND_SHOW_FEEDS_PANEL",
             "guid": "8022143d-dd8e-44d7-8c28-9a50ad606ab4",
             "type": "command"
@@ -1216,6 +1243,23 @@
             "type": "separator"
           },
           {
+            "action": "CONTAINER_OTHER_WINDOW",
+            "guid": "b8a4b200-4d8a-4760-8f57-6da9df9d2bd8",
+            "type": "container",
+            "mode": "folder"
+          },
+          {
+            "action": "CONTAINER_OTHER_WORKSPACE",
+            "guid": "1329be0a-1054-4dc4-808b-2e4873cacc91",
+            "type": "container",
+            "mode": "folder"
+          },
+          {
+            "action": "",
+            "guid": "c1063c99-cc13-4e37-813f-090ae66c7810",
+            "type": "separator"
+          },
+          {
             "action": "CONTAINER_PINNED_TAB",
             "guid": "51f3bdd1-3a2a-45fb-9710-3f7137298ab1",
             "type": "container",
@@ -1372,6 +1416,16 @@
           },
           {
              "action": "",
+             "guid": "b489c573-55e8-4e06-b9d7-35bee3c50fc3",
+             "type": "separator"
+          },
+          {
+             "action": "COMMAND_TOGGLE_WARN_ON_QUIT",
+             "guid": "0d36145c-3004-4504-83ce-d744b11ca876",
+             "type": "checkbox"
+          },
+          {
+             "action": "",
              "guid": "3a90a227-9af0-4b87-8cdb-a6ae6b5ff6af",
              "type": "separator"
           },
@@ -1435,6 +1489,17 @@
           {
             "action": "",
             "guid": "9859febf-b7aa-4cd7-8f2b-402c93766e5c",
+            "type": "separator"
+          },
+          {
+            "action": "CONTAINER_SHARE_MENU",
+            "guid": "2473278e-2ce0-4dec-acac-463f0a587124",
+            "type": "container",
+            "mode": "folder"
+          },
+          {
+            "action": "",
+            "guid": "8e3b9f1c-b811-4b2a-a47e-ecf1fe6646f2",
             "type": "separator"
           },
           {
@@ -1624,6 +1689,11 @@
           {
             "action": "COMMAND_SHOW_CALENDAR_PANEL",
             "guid": "a2de0865-8bf5-4f7d-9761-d27343b00f8e",
+            "type": "command"
+          },
+          {
+            "action": "COMMAND_SHOW_TASKS_PANEL",
+            "guid": "59888f84-690f-4d27-9199-5927a408df5d",
             "type": "command"
           },
           {
@@ -1927,6 +1997,23 @@
         "guid": "5ecb5e2a-ea47-4dc1-9f7a-a5b54b93df9b",
         "type": "folder",
         "children": [
+          {
+            "action": "CONTAINER_OTHER_WINDOW",
+            "guid": "f902faf8-22d2-4d56-bd86-8780c98eb851",
+            "type": "container",
+            "mode": "folder"
+          },
+          {
+            "action": "CONTAINER_OTHER_WORKSPACE",
+            "guid": "c2fd00d9-a5a8-4dc6-8a37-af888e7d0404",
+            "type": "container",
+            "mode": "folder"
+          },
+          {
+            "action": "",
+            "guid": "b080008d-80dd-4e4e-858c-2a2045caef3c",
+            "type": "separator"
+          },
           {
             "action": "CONTAINER_PINNED_TAB",
             "guid": "57c69ddd-b6bc-47bd-b43a-2222b71cd0a5",
