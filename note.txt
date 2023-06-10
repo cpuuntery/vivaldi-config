@@ -1,1 +1,3 @@
+path 
+C:\Users\Yousif\AppData\Local\Vivaldi\User Data\Default
 copy and replace AdBlockState
